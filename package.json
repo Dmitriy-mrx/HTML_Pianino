@@ -1,0 +1,20 @@
+{
+  "name": "core-js-base-piano",
+  "version": "1.0.0",
+  "description": "Это задание поможет тебе побольше попрактиковаться в работе с DOM и CSS. Наверное, ты встречал(а) сервисы, которые предоставляют возможность поиграть на виртуальном пианино (например https://virtualpiano.net/). Теперь у тебя есть возможность написать собственную версию.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitriy-mrx/core-js-base-piano.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmitriy-mrx/core-js-base-piano/issues"
+  },
+  "homepage": "https://github.com/Dmitriy-mrx/core-js-base-piano#readme"
+}

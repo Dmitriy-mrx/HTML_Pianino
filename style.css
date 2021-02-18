@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: purple;
+}
+
+.piano{
+width: 600px;
+height: 400px;
+margin: 50px auto;
+display: flex;
+}
+
+.key{
+  display: flex;
+  align-items: flex-end;
+  
+  width: 60%;
+  height: 100%;
+  border: 2px solid black;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  background-color: blanchedalmond;
+}
+
+.key-black{
+  background: black;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-end;
+  color: aliceblue;
+  width: 150px;
+  height: 60%;
+ margin-left: -20px;
+ margin-right: -20px;
+ z-index: 2;
+}
+.key:active{
+  background:coral;
+}
+.key-black:active{
+  background: darkblue;
+}
